@@ -46,9 +46,9 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_COLOR
-          value: "#8347FF"  #For red #FF0000; For Purple #8347FF; For Green #5AB834
+          value: "#5AB834"  #For red #FF0000; For Purple #8347FF; For Green #5AB834
         - name: PODINFO_UI_MESSAGE
-          value: "Hello from the Red Podinfo!"
+          value: "Hello from the Green Podinfo!"
         livenessProbe:
           exec:
             command:
